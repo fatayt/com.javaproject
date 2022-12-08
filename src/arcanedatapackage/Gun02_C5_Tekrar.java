@@ -80,7 +80,8 @@ public class Gun02_C5_Tekrar {
             System.out.println("Expected Url: " + expectedUrl);
         }
         //Quit the browser
-        driver.quit();
+        //driver.quit();
+        driver.close();
 
     }
 }
